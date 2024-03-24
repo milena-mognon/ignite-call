@@ -1,4 +1,3 @@
-import { Heading, Text } from "@ignite-ui/react";
-export default function Home() {
-  return <Heading as="h1">Teste</Heading>;
-}
+// esse arquivo é o / da aplicação. Como eu quero que a página home seja a / e não /home
+// eu posso importar dessa forma
+export { default } from "./home";
